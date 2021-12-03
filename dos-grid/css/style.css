@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.logo img {
+  width: 60px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

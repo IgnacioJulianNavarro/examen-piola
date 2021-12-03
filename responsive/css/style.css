@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+  .cel {
+    display: none;
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .links {
+    display: none;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c4c4c4;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 769px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.img {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
